@@ -1,11 +1,11 @@
-![](../logo.png)
+![](./logo.png)
 
 # C++ Game Wizard - Técnicas de programação de games com C++
 
 [**Cleuton Sampaio**](https://linkedin.com/in/cleutonsampaio), autor do livro: 
 - **Manual do Indie Game Developer**, Editora Ciência Moderna.
 
-![](../51Fs8fPE4JL._SY342_.jpg)
+![](./51Fs8fPE4JL._SY342_.jpg)
 
 Aposto que, depois de criar um compilador, o que você mais deseja é criar um **game** phodd@, certo? Algo para mostrar para a sua Mãe, seu benzinho ou para jogar na cara dos zamigos. Então tá... Bora criar um game? Mas tem que ser em **C++**!
 
@@ -105,7 +105,7 @@ sudo apt install libglm-dev
 
 Finalmente temos o **glad**! Ele é gerado através de um site: [https://glad.dav1d.de/](https://glad.dav1d.de/). Você preenche algumas combos e ele gera para você o glad.zip: 
 
-![](../glad.png)
+![](./glad.png)
 
 Eu estou usando a versão 3.3 core, mas isso pode mudar conforme avançamos mais. 
 
@@ -207,7 +207,7 @@ target_link_libraries(${PROJECT_NAME}
 
 Bom, mas e o código-fonte? Então... Vamos criar um arquivo `main.cpp` dentro da pasta `src`. O que ele fará? Criará um cubo multicolorido giratório, como esse da imagem: 
 
-![](../exemplo.png)
+![](./exemplo.png)
 
 O código-fonte está no arquivo [`main.cpp`](./projeto2/src/main.cpp), mas vou reproduzir e explicar aqui: 
 
